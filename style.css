@@ -1,0 +1,113 @@
+@font-face {
+    font-family: myfont;
+    src: url(./Norse-Bold.otf);
+}
+
+
+.odintext h1{
+    font-family: "myfont";
+    font-size: 6rem;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(15,15,15);
+}
+
+.odintext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    position: absolute;
+    top: 22%;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+#ODIN{
+    width: 5vw;
+}
+#fundo{
+    width: 30vw;
+    height: 100vh;
+}
+.right{
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(247, 250, 252);
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+}
+.intro p{
+    margin-bottom: 30px;
+}
+.intro{
+    padding: 150px 60px 50px 50px;
+    font-size: 1.8rem;
+    width: 800px;
+}
+.formulario{
+    padding-left: 30px;
+    width: 50vw;
+    height: 280px;
+    background-color: white;
+    
+}
+.formulario h1{
+    margin-bottom: 15px;
+}
+.login{
+    width: 40vw;
+    height: 200px;
+    background-color: rgb(247, 250, 252);
+}
+.login p{
+    margin-left: 30px;
+}
+.colored{font-weight: bold; color: #596D48;}
+.login button{
+    margin: 20px 30px;
+    background-color: #596D48;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+}
+
+.form-row input {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+.box{
+    display: flex;
+    flex-direction: column  ;
+}
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start; /* To avoid stretching */
+    margin-bottom: 20px;
+  }
+
+  
